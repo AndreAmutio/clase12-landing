@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landign de prueba </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <div class="container-header">
+        <div class="logo-titulo">
+          <img class="logo" src="cuidado-de-mascotas.png" alt="logo de la pagina">
+          <h1>SALVANDO PATITAS ONG</h1>
+        </div>
+       <nav class="nav-header">
+          <ul class="nav-lista">
+           <li><a href="#nosotros">Quiénes Somos</a></li>
+           <li><a href="#proyecto">Proyectos</a></li>
+           <li><a href="#contacto">Contacto</a></li>
+          </ul>
+       </nav>
+       </div>
+    </header>
+
+
+    <main>
+     <section id="nosotros">
+      <h2>Nuestra Misión</h2>
+      <article>
+        <h3>Amor y protección para todos los animales</h3>
+        <p>Somos una ONG dedicada al rescate, rehabilitación y adopción de animales en situación de calle o maltrato.</p>
+      </article>
+     </section>
+
+    <section id="proyecto" class="galeria">
+     <h2>Historias que nos inspiran</h2>
+
+     <div class="tarjetas-container">
+      <div class="tarjeta">
+       <img src="./firu.avif" alt="Rescate de un perro" />
+      <div class="contenido-tarjeta">
+        <h3>Firulais</h3>
+        <p>Rescatado de la calle, hoy vive feliz con una familia.</p>
+        <button>Ver historia</button>
+      </div>
+     </div>
+
+     <div class="tarjeta">
+       <img src="./michi.webp" alt="Rescate de un gato" />
+      <div class="contenido-tarjeta">
+        <h3>Mishi</h3>
+        <p>Fue maltratado, pero hoy se recupera con amor.</p>
+        <button>Ver historia</button>
+      </div>
+     </div>
+
+     <div class="tarjeta">
+       <img src="./caballo.jpeg" alt="Rescate de un caballo" />
+      <div class="contenido-tarjeta">
+        <h3>Libertad</h3>
+        <p>Un caballo liberado del trabajo forzado.</p>
+        <button>Ver historia</button>
+      </div>
+     </div>
+    </div>
+</section>
+
+    <section id="contacto">
+      <h2 class="contactar">CONTACTANOS :</h2>
+      <form>
+        <label for="nombre">Nombre*</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+
+        <label for="como">¿Cómo nos conociste?</label>
+        <select id="como" name="como">
+          <option value="">Seleccionar</option>
+          <option value="redes">Redes Sociales</option>
+          <option value="voluntario">Voluntario/a</option>
+          <option value="evento">Evento</option>
+        </select>
+
+        <label>
+          <input type="checkbox" required />
+          Acepto los términos y condiciones
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2025 Huellas de Esperanza.</p>
+      <p>Seguinos en: </p>
+      <div class="footer-iconos">
+       <ul>
+         <li>
+           <a href="https://www.facebook.com/" aria-label="Facebook"> <img src="./facebook.png" alt="icono de facebook"> </a>
+         </li>
+         <li>
+           <a href="https://www.instagram.com/" aria-label="Instagram"> <img src="./social.png" alt="icono de Instagram"></a> 
+         </li>
+         <li>
+             <a href="https://x.com/" aria-label="Twitter"> <img src="./gorjeo.png" alt="icono de Twitter"></a>
+         </li>
+       </ul>
+      </div>
+  </footer>
+</body>
+</html>
