@@ -173,7 +173,7 @@ main {
 
 .contactar{
   margin-top: 10vh;
-  margin-left: 40vh;
+  margin-left: 32vh;
   font-size: 2rem;
   font-family: fantasy;
 }
@@ -184,7 +184,7 @@ main {
 
 form {
     margin-top: 2vh;
-    margin-left: 40vh;
+    margin-left: 32vh;
     background-color: #fff3e6;
     padding: 1.5rem;
     border-radius: 10px;
